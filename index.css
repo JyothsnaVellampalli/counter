@@ -1,0 +1,54 @@
+* {
+    margin: 0px
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 40px;
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+}
+
+/* .ele {
+    border: 1px solid red;
+} */
+
+.hit-button {
+    height: 200px;
+    width: 200px;
+    border-radius: 200px;
+    border: none;
+    box-shadow: 2px 5px 5px gray;
+    background-color: azure;
+    color: red;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hit-button:active {
+    background-color: red;
+    color: white;
+}
+
+.reset-button {
+    height: 40px;
+    width: 70px;
+    border: 2px solid red;
+    color: red;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 20px;
+    outline: none;
+    background-color: transparent;
+}
+
+.reset-button:active {
+    background-color: red;
+    color: white;
+}
